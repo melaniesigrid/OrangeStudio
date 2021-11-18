@@ -2,7 +2,6 @@
 
 Original design idea by Cindy Shin in Behance. https://www.behance.net/gallery/29845175/CC-Global-Summit-2015 .
 Licensed under Creative Commons https://creativecommons.org/licenses/by-nc/4.0/ . Changes were made to adapt the design to my needs.
-I also used a custom background from https://www.design.svgbackgrounds.com/ on the program section of my website.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this website and associated documentation files, to deal in the website without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the website, and to permit persons to whom the website is furnished to do so, subject to the following conditions:
 
