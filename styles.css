@@ -93,7 +93,7 @@ nav {
 }
 
 .presentation {
-  padding: 20px;
+  padding: 40px;
   background-color: #f7f7f8;
   background-image: url("images/mobile-presentation-background.png");
 }
@@ -103,6 +103,7 @@ nav {
   text-align: justify;
   margin: 17 px 0.75 em 0;
   padding: 1em 0.5em;
+  margin: 30px;
 }
 
 .program {
