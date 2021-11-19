@@ -198,6 +198,65 @@ nav a.active,a:hover{
   color: white;
 }
 
+.view {
+  color: white;
+  font-size: 20px;
+}
+
+.speakers {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  justify-content: center;
+  place-items: center;
+}
+
+.speaker-card {
+  display: grid;
+  max-width: 700px;
+  grid-template-columns: 1fr 2fr;
+}
+
+.image-parent {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 300px;
+  height: 300px;
+}
+
+.decorative-image {
+  width: 75px;
+  position: relative;
+  top: 15px;
+  left: 15px;
+}
+
+.speaker-image {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  width: 225px;
+}
+
+.speaker-name {
+  margin-top: 10px;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.speaker-title {
+  margin-bottom: 10px;
+  color: #ec5242;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.speaker-description {
+  font-size: 18px;
+  font-weight: 300;
+}
+
 /*Desktop version*/
 @media (min-width: 768px) {
   .presentation {
@@ -219,5 +278,16 @@ nav a.active,a:hover{
 
   nav .closeMenu {
     display: none;
+  }
+}
+
+@media (min-width:1400px) {
+  .speakers {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    place-items: center;
+    gap: 10px;
   }
 }
