@@ -178,7 +178,7 @@ a:hover {
 
 .card {
   display: grid;
-  grid-template-columns: 1fr 1fr 2fr; 
+  grid-template-columns: 1fr 1fr 2fr;
   text-align: center;
   justify-content: center;
   justify-self: center;
@@ -282,7 +282,7 @@ a:hover {
   }
 }
 
-@media (min-width:1400px) {
+@media (min-width: 1400px) {
   .speakers {
     display: grid;
     grid-template-columns: 1fr 1fr;
