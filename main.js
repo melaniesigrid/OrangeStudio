@@ -56,7 +56,7 @@ const team = [
     description: 'Melanie started her journey in Front-End Development in 2020, when COVID quarantines made her take Web Development as a hobby, and later consider a change of career. Through her journey, she fell in love with UX/UI design, and started dreaming of Orange Studio in 2021. With the help of her friends and colleagues, it is a dream that has come true.',
     picture: 'images/kero.jpg',
     alt: 'Kerolous Samy',
-  }
+  },
 ];
 
 let cards = '';

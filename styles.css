@@ -157,7 +157,7 @@ a:hover {
 .program {
   text-align: center;
   justify-content: center;
-  background-color:#272a32;
+  background-color: #272a32;
   background-image: url("images/pattern_bg.png");
   background-repeat: repeat;
 }
@@ -258,7 +258,6 @@ a:hover {
   font-weight: 300;
 }
 
-/*Desktop version*/
 @media (min-width: 768px) {
   .presentation {
     background-color: #f7f7f8;
