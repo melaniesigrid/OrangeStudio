@@ -51,7 +51,7 @@ nav {
   height: 75px;
   display: flex;
   align-items: center;
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
 }
 
 nav ul {
@@ -68,9 +68,10 @@ nav li {
   border-radius: 3px;
 }
 
-nav a.active,a:hover{
+nav a.active,
+a:hover {
   color: #ec5242;
-  transition: .5s;
+  transition: 0.5s;
 }
 
 .logo {
