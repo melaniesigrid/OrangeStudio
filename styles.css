@@ -204,6 +204,10 @@ a:hover {
   font-size: 20px;
 }
 
+.program a #view {
+  color: white;
+}
+
 .speakers {
   display: grid;
   grid-template-columns: 1fr;
@@ -256,6 +260,34 @@ a:hover {
 .speaker-description {
   font-size: 18px;
   font-weight: 300;
+}
+
+.partners {
+  background-color: #272a32;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.our-partners {
+  font-size: 30px;
+  font-weight: 15;
+  padding: 15px;
+  margin: 10px;
+}
+
+.logo-container {
+  display: flex;
+}
+
+.sponsor-icon {
+  margin: 25px;
+  font-size: 4rem;
+  color: #d3d3d3;
+}
+
+.our-partners {
+  color: #d3d3d3;
 }
 
 @media (min-width: 768px) {

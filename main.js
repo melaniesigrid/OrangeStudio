@@ -46,14 +46,14 @@ const team = [
   {
     name: 'Fabiano Frank',
     title: 'Full-Stack Developer',
-    description: 'Melanie started her journey in Front-End Development in 2020, when COVID quarantines made her take Web Development as a hobby, and later consider a change of career. Through her journey, she fell in love with UX/UI design, and started dreaming of Orange Studio in 2021. With the help of her friends and colleagues, it is a dream that has come true.',
+    description: 'Fabiano is one of our most experienced Full-Stack Developers. He has been working with Melanie since they were dreaming of entering Microverse, an intensive online school for full-stack development. He has proven a valuable asset to the team.',
     picture: 'images/frank.jpg',
     alt: 'Fabiano Frank',
   },
   {
     name: 'Kerolous Samy Grace',
     title: 'Full-Stack Developer',
-    description: 'Melanie started her journey in Front-End Development in 2020, when COVID quarantines made her take Web Development as a hobby, and later consider a change of career. Through her journey, she fell in love with UX/UI design, and started dreaming of Orange Studio in 2021. With the help of her friends and colleagues, it is a dream that has come true.',
+    description: 'Kerolous has worked and lived in several different countries. Throughout his career as a software developer, he has worked with a lot of different projects which have allowed him to gain a lot of experience.',
     picture: 'images/kero.jpg',
     alt: 'Kerolous Samy',
   },
