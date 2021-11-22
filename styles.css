@@ -160,6 +160,7 @@ a:hover {
   background-color: #272a32;
   background-image: url("images/pattern_bg.png");
   background-repeat: repeat;
+  padding-bottom: 25px;
 }
 
 .main-program {
@@ -182,11 +183,15 @@ a:hover {
   text-align: center;
   justify-content: center;
   justify-self: center;
-  background: rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.1);
   height: 78px;
   padding-top: 16px;
   padding-bottom: 16px;
   margin: 16px;
+}
+
+.card:hover {
+  border: 3px solid white;
 }
 
 .card-title {
@@ -274,6 +279,7 @@ a:hover {
   font-weight: 15;
   padding: 15px;
   margin: 10px;
+  color: #d3d3d3;
 }
 
 .logo-container {
@@ -286,12 +292,27 @@ a:hover {
   color: #d3d3d3;
 }
 
-.our-partners {
-  color: #d3d3d3;
+.sponsor-icon:hover {
+  color: #ec5242;
+}
+
+.footer-section {
+  color: #272a32;
+  background-color: white;
+}
+
+.footer-text {
+  margin-top: 45px;
+  font-size: 1.3rem;
+}
+
+.footer-logo {
+  float: left;
 }
 
 @media (min-width: 768px) {
   .presentation {
+    margin: 200px;
     background-color: #f7f7f8;
     background-image: url("images/presentation-background.png");
   }
@@ -322,5 +343,39 @@ a:hover {
     justify-content: center;
     place-items: center;
     gap: 10px;
+  }
+
+  .card-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    place-items: center;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card-icon {
+    width: 68px;
+    margin: 20px;
+  }
+
+  .card-title {
+    font-size: 24px;
+  }
+
+  .card-text {
+    text-align: justify;
+  }
+
+  .card-text-container {
+    width: 200px;
+    margin: 20px;
   }
 }
