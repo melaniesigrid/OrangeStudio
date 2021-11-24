@@ -224,7 +224,11 @@ a:hover {
 }
 
 .gray-separator {
-  border: 1px solid #d3d3d3;
+  border: none;
+  height: 1px;
+  background-color: #d3d3d3;
+  width: 100vw;
+  margin: 50px;
 }
 
 .logo-contest {
@@ -342,6 +346,13 @@ a:hover {
   left: 15px;
 }
 
+.decorative-image:hover {
+  transform: rotate(360deg);
+  transition-duration: 3s;
+  transition-timing-function: ease-in-out;
+  z-index: 1;
+}
+
 .speaker-image {
   position: absolute;
   top: 40px;
@@ -397,10 +408,46 @@ a:hover {
   color: #ec5242;
 }
 
+.future-events {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.future-img-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.future {
+  height: 300px;
+  width: 450px;
+  background-color: #ec5242;
+  margin: 50px;
+  color: white;
+  font-family: Cocogoose-Italic;
+  font-size: 50px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
+.future:hover {
+  background-color: rgb(46, 46, 46);
+}
+
 .footer-section {
   min-height: 200px;
   color: #272a32;
   background-color: white;
+}
+
+.footer-about-section {
+  min-height: 200px;
+  color: white;
+  background-color: rgb(46, 46, 46);
 }
 
 .footer-text {
