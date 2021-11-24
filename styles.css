@@ -296,6 +296,7 @@ a:hover {
 
 .card:hover {
   border: 3px solid white;
+  cursor: pointer;
 }
 
 .card-title {
@@ -351,6 +352,7 @@ a:hover {
   transition-duration: 3s;
   transition-timing-function: ease-in-out;
   z-index: 1;
+  cursor: pointer;
 }
 
 .speaker-image {
@@ -417,6 +419,7 @@ a:hover {
 
 .future-img-container {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
@@ -524,6 +527,13 @@ a:hover {
   nav .closeMenu {
     display: none;
   }
+
+.future-img-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
 }
 
 @media (min-width: 1400px) {
