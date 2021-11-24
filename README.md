@@ -4,6 +4,7 @@
 
 > Capstone project for Microverse. A webpage for a web design studio. 
 > Check project [here](https://melaniesigrid.github.io/OrangeStudio/)
+> Video introduction of project [here](https://www.loom.com/share/a3255081058447c8b041fd1f26859241)
 
 
 ![screenshot](images/Orange-studio-screenshot.png)
