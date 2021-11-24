@@ -5,7 +5,7 @@
 > Capstone project for Microverse. A webpage for a web design studio. 
 
 
-![screenshot](images/app_screenshot.png)
+![screenshot](images/Orange-studio-screenshot.png)
 
 ## Authors
 
