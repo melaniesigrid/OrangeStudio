@@ -3,6 +3,7 @@
 # Orange Studio Webpage
 
 > Capstone project for Microverse. A webpage for a web design studio. 
+> Check project [here](https://melaniesigrid.github.io/OrangeStudio/)
 
 
 ![screenshot](images/Orange-studio-screenshot.png)
