@@ -528,12 +528,12 @@ a:hover {
     display: none;
   }
 
-.future-img-container {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-}
+  .future-img-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 @media (min-width: 1400px) {
