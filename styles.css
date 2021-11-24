@@ -138,7 +138,7 @@ a:hover {
 }
 
 .about-title {
-  font-family: Fredoka One;
+  font-family: Fredoka One, cursive;
   color: #ec5242;
   font-size: 3rem;
   text-align: center;
@@ -172,7 +172,6 @@ a:hover {
 
 .about-presentation {
   padding: 40px;
-  background-color: #f7f7f8;
   background: url("images/about_bg_01.png") center no-repeat;
   height: auto;
   overflow: auto;
@@ -203,7 +202,8 @@ a:hover {
   border: 1px solid #d3d3d3;
   width: 40vw;
   justify-self: center;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
   font-size: 18px;
   font-weight: 300;
   text-align: center;
@@ -423,7 +423,7 @@ a:hover {
   }
 
   .about-presentation-container {
-    margin: 50px, 200px, 50px, 200px;
+    margin: 50px 200px 50px 200px;
   }
 
   .title-description {
@@ -435,7 +435,7 @@ a:hover {
   }
 
   .about-title {
-    font-family: Fredoka One;
+    font-family: Fredoka One, cursive;
     color: #ec5242;
     font-size: 4rem;
     text-align: center;
