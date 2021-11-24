@@ -74,4 +74,4 @@ team.forEach((p) => {
       </div>`;
 });
 
-document.getElementById('speakers').innerHTML = cards;
+document.getElementById('speakers').innerHTML += cards;

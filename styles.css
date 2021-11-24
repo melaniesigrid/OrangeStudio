@@ -318,12 +318,22 @@ a:hover {
   color: white;
 }
 
+.speaker-titles {
+  margin: 50px;
+}
+
 .speakers {
   display: grid;
   grid-template-columns: 1fr;
   align-items: center;
   justify-content: center;
   place-items: center;
+}
+
+.team-title {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 
 .speaker-card {
