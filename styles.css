@@ -436,6 +436,7 @@ a:hover {
 
 .future:hover {
   background-color: rgb(46, 46, 46);
+  cursor: pointer;
 }
 
 .footer-section {
