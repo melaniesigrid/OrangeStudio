@@ -1,5 +1,3 @@
-/* font-family: 'Fredoka One', cursive;
-font-family: 'Lato', sans-serif; */
 *,
 *::after,
 *::before {
@@ -41,22 +39,64 @@ ul {
 
 header {
   font-family: 'Lato', sans-serif;
-  display: flex;
 }
 
 i {
   padding: 10px;
 }
 
-nav {
+.language-navbar {
+  background-color: #272a31;
+  color: white;
   display: flex;
+  justify-content: flex-end;
   align-items: center;
 }
 
+.lang-nav-item {
+  padding: 5px;
+  color: white;
+}
+
+.lang-nav-item:hover {
+  cursor: pointer;
+}
+
+.white-navbar {
+  width: 100%;
+  height: 75px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+nav ul {
+  float: right;
+  right: 20px;
+  margin-right: 40px;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 8px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #272a32;
+  border: 1px solid transparent;
+  padding: 7px 10px;
+  border-radius: 3px;
+}
+
+nav a.active,
+a:hover {
+  color: #ec5242;
+  transition: 0.5s;
+}
+
 .logo {
-  margin: 10px 20px;
+  margin: 10px 20vw 5px 20vw;
   width: 200px;
-  display: none;
 }
 
 .hamburger {
@@ -65,12 +105,47 @@ nav {
   margin-top: 25px;
   margin-left: 25px;
   cursor: pointer;
-  border: 0;
   background-color: white;
 }
 
 .navlink {
   padding: 12px;
+}
+
+@media (max-width: 767px) {
+  nav .mainMenu {
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: top 1s ease;
+    display: none;
+  }
+
+  nav .closeMenu {
+    display: none;
+  }
+
+  .closeMenu:hover {
+    color: #ec5242;
+    cursor: pointer;
+  }
+
+  nav .mainMenu .closeMenu {
+    display: block;
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    font-size: 1.3rem;
+  }
 }
 
 .title-description {
@@ -86,6 +161,13 @@ nav {
   font-size: 3rem;
 }
 
+.about-title {
+  font-family: Fredoka One, cursive;
+  color: #ec5242;
+  font-size: 3rem;
+  text-align: center;
+}
+
 .year {
   color: #ec5242;
   font-family: 'Cocogoose-Italic', cursive;
@@ -93,24 +175,124 @@ nav {
 }
 
 .presentation {
-  padding: 20px;
+  padding: 40px;
   background-color: #f7f7f8;
   background-image: url("images/mobile-presentation-background.png");
+}
+
+.small-separator {
+  margin: auto;
+  border: 0.5px solid #ec5242;
+  width: 60px;
+}
+
+.introductory-about {
+  font-size: 25px;
+  font-weight: 300;
+  max-width: 950px;
+  margin: auto;
+  text-align: center;
+}
+
+.about-presentation {
+  padding: 40px;
+  background: url("images/about_bg_01.png") center no-repeat;
+  height: auto;
+  overflow: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-presentation-container {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 .intro-text {
   border: 4px solid #fff;
   text-align: justify;
-  margin: 17 px 0.75 em 0;
   padding: 1em 0.5em;
+  margin: 20px;
+  max-width: 800px;
+}
+
+.intro-about-card {
+  padding: 30px;
+  margin-top: 50px;
+  background: white;
+  border: 1px solid #d3d3d3;
+  width: 40vw;
+  justify-self: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 18px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.diamonds {
+  color: #ec5242;
+}
+
+.questions {
+  margin: 30px;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.email {
+  font-weight: 600;
+}
+
+.gray-separator {
+  border: none;
+  height: 1px;
+  background-color: #d3d3d3;
+  width: 100vw;
+  margin: 50px;
+}
+
+.logo-contest {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-about {
+  font-size: 30px;
+  font-weight: 15;
+  padding: 15px;
+  margin: 10px;
+}
+
+.logo-image {
+  border: 1px solid #d3d3d3;
+  margin: 40px;
+  padding: 50px;
+}
+
+.logo-image:hover {
+  cursor: pointer;
+}
+
+.logo-description {
+  font-size: 20px;
+  font-weight: 300;
+  max-width: 50vw;
+  text-align: center;
 }
 
 .program {
   text-align: center;
   justify-content: center;
-  background-color:#272a32;
+  background-color: #272a32;
   background-image: url("images/pattern_bg.png");
   background-repeat: repeat;
+  padding-bottom: 25px;
 }
 
 .main-program {
@@ -129,15 +311,20 @@ nav {
 
 .card {
   display: grid;
-  grid-template-columns: 1fr 1fr 2fr; 
+  grid-template-columns: 1fr 1fr 2fr;
   text-align: center;
   justify-content: center;
   justify-self: center;
-  background: rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.1);
   height: 78px;
   padding-top: 16px;
   padding-bottom: 16px;
   margin: 16px;
+}
+
+.card:hover {
+  border: 3px solid white;
+  cursor: pointer;
 }
 
 .card-title {
@@ -150,18 +337,227 @@ nav {
   color: white;
 }
 
-/*Desktop version*/
+.view {
+  color: white;
+  font-size: 20px;
+}
+
+.program a #view {
+  color: white;
+}
+
+.speaker-titles {
+  margin: 50px;
+}
+
+.speakers {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  justify-content: center;
+  place-items: center;
+}
+
+.team-title {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.speaker-card {
+  display: grid;
+  max-width: 700px;
+  grid-template-columns: 1fr 2fr;
+}
+
+.image-parent {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 300px;
+  height: 300px;
+}
+
+.decorative-image {
+  width: 75px;
+  position: relative;
+  top: 15px;
+  left: 15px;
+}
+
+.decorative-image:hover {
+  transform: rotate(360deg);
+  transition-duration: 3s;
+  transition-timing-function: ease-in-out;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.speaker-image {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  width: 225px;
+}
+
+.speaker-name {
+  margin-top: 10px;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.speaker-title {
+  margin-bottom: 10px;
+  color: #ec5242;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.speaker-description {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.partners {
+  min-height: 250px;
+  background-color: #272a32;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.our-partners {
+  font-size: 30px;
+  font-weight: 15;
+  padding: 15px;
+  margin: 10px;
+  color: #d3d3d3;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sponsor-icon {
+  margin: 25px;
+  font-size: 4rem;
+  color: #d3d3d3;
+}
+
+.sponsor-icon:hover {
+  color: #ec5242;
+}
+
+.future-events {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.future-img-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.future {
+  height: 300px;
+  width: 450px;
+  background-color: #ec5242;
+  margin: 50px;
+  color: white;
+  font-family: Cocogoose-Italic, cursive;
+  font-size: 50px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
+.future:hover {
+  background-color: rgb(46, 46, 46);
+  cursor: pointer;
+}
+
+.footer-section {
+  min-height: 200px;
+  color: #272a32;
+  background-color: white;
+}
+
+.footer-about-section {
+  min-height: 200px;
+  color: white;
+  background-color: rgb(46, 46, 46);
+}
+
+.footer-text {
+  margin-top: 45px;
+  font-size: 1.3rem;
+}
+
+.footer-logo {
+  float: left;
+}
+
 @media (min-width: 768px) {
   .presentation {
     background-color: #f7f7f8;
     background-image: url("images/presentation-background.png");
   }
+
+  .presentation-container {
+    margin: 200px;
+  }
+
+  .about-presentation-container {
+    margin: 50px 200px 50px 200px;
+  }
+
+  .title-description {
+    font-size: 3.5rem;
+  }
+
+  .title {
+    font-size: 5rem;
+  }
+
+  .about-title {
+    font-family: Fredoka One, cursive;
+    color: #ec5242;
+    font-size: 4rem;
+    text-align: center;
+  }
+
+  .year {
+    font-size: 5rem;
+  }
+
+  .dates {
+    font-size: 2.3rem;
+    font-weight: 800;
+    margin: 20px;
+  }
+
+  .place {
+    font-size: 1.2rem;
+  }
+
+  .intro-text {
+    font-size: 1.5rem;
+    font-weight: 350;
+  }
+
   nav .openMenu {
     display: none;
   }
 
   nav .logo {
     display: block;
+    margin: 10px 40px;
   }
 
   nav .mainMenu {
@@ -170,5 +566,57 @@ nav {
 
   nav .closeMenu {
     display: none;
+  }
+
+  .future-img-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 1400px) {
+  .speakers {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    place-items: center;
+    gap: 10px;
+  }
+
+  .card-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    place-items: center;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card-icon {
+    width: 68px;
+    margin: 20px;
+  }
+
+  .card-title {
+    font-size: 24px;
+  }
+
+  .card-text {
+    text-align: justify;
+  }
+
+  .card-text-container {
+    width: 200px;
+    margin: 20px;
   }
 }
