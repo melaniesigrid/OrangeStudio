@@ -73,7 +73,7 @@ i {
 
 nav ul {
   float: right;
-  right: 20;
+  right: 20px;
   margin-right: 40px;
 }
 
@@ -134,17 +134,17 @@ a:hover {
     display: none;
   }
 
+  .closeMenu:hover {
+    color: #ec5242;
+    cursor: pointer;
+  }
+
   nav .mainMenu .closeMenu {
     display: block;
     position: absolute;
     top: 40px;
     right: 40px;
     font-size: 1.3rem;
-  }
-  
-  .closeMenu:hover {
-    color: #ec5242;
-    cursor: pointer;
   }
 }
 
