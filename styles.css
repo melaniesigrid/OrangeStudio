@@ -39,23 +39,41 @@ ul {
 
 header {
   font-family: 'Lato', sans-serif;
-  display: flex;
 }
 
 i {
   padding: 10px;
 }
 
-nav {
+.language-navbar {
+  background-color: #272a31;
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.lang-nav-item {
+  padding: 5px;
+  color: white;
+}
+
+.lang-nav-item:hover {
+  cursor: pointer;
+}
+
+.white-navbar {
   width: 100%;
   height: 75px;
   display: flex;
+  justify-content: space-around;
   align-items: center;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
 }
 
 nav ul {
   float: right;
+  right: 20;
   margin-right: 40px;
 }
 
@@ -77,7 +95,7 @@ a:hover {
 }
 
 .logo {
-  margin: 10px 20vw;
+  margin: 10px 20vw 5px 20vw;
   width: 200px;
 }
 
@@ -119,8 +137,14 @@ a:hover {
   nav .mainMenu .closeMenu {
     display: block;
     position: absolute;
-    top: 20px;
-    right: 20px;
+    top: 40px;
+    right: 40px;
+    font-size: 1.3rem;
+  }
+  
+  .closeMenu:hover {
+    color: #ec5242;
+    cursor: pointer;
   }
 }
 
@@ -249,6 +273,10 @@ a:hover {
   border: 1px solid #d3d3d3;
   margin: 40px;
   padding: 50px;
+}
+
+.logo-image:hover {
+  cursor: pointer;
 }
 
 .logo-description {
@@ -408,6 +436,8 @@ a:hover {
 
 .logo-container {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .sponsor-icon {
