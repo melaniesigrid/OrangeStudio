@@ -73,7 +73,6 @@ i {
 
 nav ul {
   float: right;
-  right: 20px;
   margin-right: 40px;
 }
 
@@ -145,6 +144,90 @@ a:hover {
     top: 40px;
     right: 40px;
     font-size: 1.3rem;
+  }
+
+  .openMenu {
+    margin-left: 0;
+  }
+
+  nav .logo {
+    width: 150px;
+  }
+
+  nav .lang-nav-item {
+    font-size: 13px;
+  }
+
+  .hamburger {
+    font-size: 50px;
+  }
+
+  .card-container .card {
+    height: 110px;
+  }
+
+  .card-container .card-title {
+    font-size: 15px;
+  }
+
+  .card-container .card-text {
+    font-size: 13px;
+  }
+
+  .image-parent {
+    width: 180px !important;
+  }
+
+  .decorative-image {
+    width: 50px !important;
+    top: 40px !important;
+    left: 20px !important;
+  }
+
+  .speaker-image {
+    top: 60px !important;
+    width: 130px !important;
+    left: 35px !important;
+  }
+
+  .speaker-name {
+    font-size: 18px !important;
+  }
+
+  .speaker-description {
+    text-align: justify;
+    font-size: 13px !important;
+    padding-right: 20px;
+  }
+
+  .sponsor-icon {
+    font-size: 3rem !important;
+  }
+
+  .intro-about-card {
+    width: 90vw !important;
+  }
+
+  .future {
+    max-width: 90vw;
+    font-size: 2rem !important;
+  }
+
+  .future-events .future-img-container {
+    flex-direction: column;
+  }
+
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-text {
+    margin: auto;
+    font-size: 1rem !important;
   }
 }
 
@@ -255,11 +338,34 @@ a:hover {
   margin: 50px;
 }
 
+.logo-description {
+  font-size: 20px;
+  font-weight: 300;
+  max-width: 50vw;
+  text-align: center;
+}
+
+.logo-contest .logo-description {
+  max-width: 90vw;
+}
+
 .logo-contest {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
+}
+
+.logo-image {
+  max-width: 90vw;
+  border: 1px solid #d3d3d3;
+  margin: 40px;
+  padding: 50px;
+}
+
+.logo-section {
+  max-width: 60vw;
 }
 
 .logo-about {
@@ -269,21 +375,8 @@ a:hover {
   margin: 10px;
 }
 
-.logo-image {
-  border: 1px solid #d3d3d3;
-  margin: 40px;
-  padding: 50px;
-}
-
 .logo-image:hover {
   cursor: pointer;
-}
-
-.logo-description {
-  font-size: 20px;
-  font-weight: 300;
-  max-width: 50vw;
-  text-align: center;
 }
 
 .program {
@@ -455,11 +548,12 @@ a:hover {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  text-align: center;
 }
 
 .future-img-container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
 }
